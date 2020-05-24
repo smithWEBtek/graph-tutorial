@@ -2,7 +2,7 @@
 lock "~> 3.14.0"
 
 set :application, "graph-tutorial"
-set :repo_url, "git@example.com:smithwebtek/graph-tutorial.git"
+set :repo_url, "git@github.com:smithwebtek/graph-tutorial.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
