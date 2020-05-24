@@ -1,14 +1,14 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.14.0"
 
-set :application, "graph-tutorial"
-set :repo_url, "git@github.com:smithwebtek/graph-tutorial.git"
+set :application, "onenote2"
+set :repo_url, "git@github.com:smithwebtek/onenote2.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
-set :deploy_to, "/home/deploy/onenote"
+set :deploy_to, "/home/deploy/onenote2"
 
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
