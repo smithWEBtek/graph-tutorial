@@ -41,15 +41,23 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: graph_tutorial_test
+  database: onenote_test
   pool: 5
-  username: deploy
+  username: brad
   password:
 
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: onenote_development
+  pool: 5
+  username: brad
+  password:
+    
 production:
   adapter: postgresql
   encoding: unicode
-  database: graph_tutorial_production
+  database: onenote_production
   pool: 5
-  username: deploy
+  username: brad
   password:
