@@ -2,7 +2,7 @@
 lock "~> 3.14.0"
 
 set :application, "onenote"
-set :repo_url, "git@github.com:smithwebtek/onenote.git"
+set :repo_url, "git@github.com:smithwebtek/graph-tutorial.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
