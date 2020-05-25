@@ -35,4 +35,9 @@
 yarn-debug.log*
 .yarn-integrity
 
-config/secrets.yml
+/config/secrets.yml
+/config/master.key
+/config/credentials.yml.enc
+/.env
+/.DS_store
+/config/database.yml
