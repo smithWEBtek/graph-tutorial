@@ -40,4 +40,4 @@ yarn-debug.log*
 /config/credentials.yml.enc
 /.env
 /.DS_store
-/config/database.yml
+database.yml
