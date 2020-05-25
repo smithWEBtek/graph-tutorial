@@ -1,7 +1,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: onenote_development
+  database: graph-tutorial_development
   pool: 5
   username: brad
   password:
@@ -9,7 +9,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: onenote_test
+  database: graph-tutorial_test
   pool: 5
   username: brad
   password:
@@ -17,7 +17,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: onenote_production
+  database: graph-tutorial_production
   pool: 5
   username: brad
   password:

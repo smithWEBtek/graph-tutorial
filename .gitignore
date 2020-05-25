@@ -27,6 +27,11 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+/config/secrets.yml
+/config/credentials.yml.enc
+/.env
+/.DS_store
+/config/database.yml
 
 /public/packs
 /public/packs-test
@@ -35,9 +40,3 @@
 yarn-debug.log*
 .yarn-integrity
 
-/config/secrets.yml
-/config/master.key
-/config/credentials.yml.enc
-/.env
-/.DS_store
-database.yml
