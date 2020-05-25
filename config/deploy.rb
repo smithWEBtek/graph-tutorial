@@ -1,8 +1,8 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.14.0"
 
-set :application, "onenote2"
-set :repo_url, "git@github.com:smithwebtek/onenote2.git"
+set :application, "onenote"
+set :repo_url, "git@github.com:smithwebtek/onenote.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
